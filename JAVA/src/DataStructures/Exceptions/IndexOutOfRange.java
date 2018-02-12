@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Hello;
+package DataStructures.Exceptions;
 
 /**
  *
  * @author argshub
  */
-public class Hello {
+public class IndexOutOfRange extends DataStructuresExceptions {
     
-    public static void main(String arg[]) {
-        System.out.println("Hello World");
+    public IndexOutOfRange(String message, int capacity) {
+        super(message, capacity);
     }
 }
