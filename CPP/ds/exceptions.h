@@ -35,11 +35,18 @@ public:
     IndexOutOfRange(const string &message, int capacity): Exceptions(message, capacity) {}
 };
 
+// class List Is Empty 
+
+class ListIsEmpty: public Exceptions {
+public:
+    ListIsEmpty(const string &message): Exceptions(message) {}
+};
 // Exceptions Definition
 
 Exceptions::Exceptions(const string& message, int capacity) {
     this->_message = message;
     this->_capacity = capacity;
 }
+
 #endif /* EXCEPTIONS_H */
 
