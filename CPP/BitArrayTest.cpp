@@ -13,6 +13,7 @@
 
 #include <iostream>
 #include "ds/bit_array.h"
+#include "ds/exceptions.h"
 
 using namespace std;
 
@@ -21,22 +22,29 @@ using namespace std;
  */
 int main(int argc, char** argv) {
 
-    BitArray bitArray(100);
+    try {
+        BitArray bitArray(100);
     
-    bitArray.setBit(0);
-    bitArray.setBit(10);
-    bitArray.setBit(15);
-    bitArray.setBit(31);
-    bitArray.setBit(23);
-    bitArray.setBit(62);
-    bitArray.setBit(93);
-    bitArray.setBit(99);
-    
-    bitArray.clearBit(23);
-    
-    for(int i = 0; i < 100; i++) {
-        if(bitArray.checkBit(i)) cout << "BIT" << i << " : " << 1 << "\n";
-        else cout << "BIT" << i << " : " << 0 << "\n";
+        bitArray.setBit(0);
+        bitArray.setBit(10);
+        bitArray.setBit(15);
+        bitArray.setBit(31);
+        bitArray.setBit(23);
+        bitArray.setBit(62);
+        bitArray.setBit(93);
+        bitArray.setBit(99);
+
+       
+        
+        bitArray.clearBit(23);
+
+        for(int i = 0; i < 100; i++) {
+            if(bitArray.checkBit(i)) cout << "BIT" << i << " : " << 1 << "\n";
+            else cout << "BIT" << i << " : " << 0 << "\n";
+        }
+    } catch(Exceptions excep) {
+        cout << excep.get_message();
+        cout << excep.get_capacity();
     }
     
     return 0;
