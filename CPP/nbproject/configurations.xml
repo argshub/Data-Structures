@@ -8,6 +8,7 @@
       <itemPath>ds/bit_array.h</itemPath>
       <itemPath>ds/doubly_linked_list.h</itemPath>
       <itemPath>ds/exceptions.h</itemPath>
+      <itemPath>ds/parallel_array.h</itemPath>
       <itemPath>ds/singly_linked_list.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -20,6 +21,7 @@
       <itemPath>ArrayTest.cpp</itemPath>
       <itemPath>BitArrayTest.cpp</itemPath>
       <itemPath>DoublyLinkedListTest.cpp</itemPath>
+      <itemPath>ParallelArrayTest.cpp</itemPath>
       <itemPath>SinglyLinkedListTest.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
@@ -53,6 +55,8 @@
       </item>
       <item path="DoublyLinkedListTest.cpp" ex="false" tool="1" flavor2="0">
       </item>
+      <item path="ParallelArrayTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="SinglyLinkedListTest.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="ds/bit_array.h" ex="false" tool="3" flavor2="0">
@@ -60,6 +64,8 @@
       <item path="ds/doubly_linked_list.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="ds/exceptions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ds/parallel_array.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="ds/singly_linked_list.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -94,6 +100,8 @@
       </item>
       <item path="DoublyLinkedListTest.cpp" ex="false" tool="1" flavor2="0">
       </item>
+      <item path="ParallelArrayTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="SinglyLinkedListTest.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="ds/bit_array.h" ex="false" tool="3" flavor2="0">
@@ -101,6 +109,8 @@
       <item path="ds/doubly_linked_list.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="ds/exceptions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ds/parallel_array.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="ds/singly_linked_list.h" ex="false" tool="3" flavor2="0">
       </item>
