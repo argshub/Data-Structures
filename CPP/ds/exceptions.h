@@ -41,6 +41,21 @@ class ListIsEmpty: public Exceptions {
 public:
     ListIsEmpty(const string &message): Exceptions(message) {}
 };
+
+// Stack Overflow Class
+
+class StackOverflow: public Exceptions {
+public:
+    StackOverflow(const string &message, int capacity): Exceptions(message, capacity) {}
+};
+
+// Stack IS Empty class
+
+class StackIsEmpty: public Exceptions {
+public:
+    StackIsEmpty(const string &message): Exceptions(message) {}
+};
+
 // Exceptions Definition
 
 Exceptions::Exceptions(const string& message, int capacity) {

@@ -40,6 +40,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/DoublyLinkedListTest.o \
 	${OBJECTDIR}/ParallelArrayTest.o \
 	${OBJECTDIR}/SinglyLinkedListTest.o \
+	${OBJECTDIR}/StackTest.o \
 	${OBJECTDIR}/main.o
 
 
@@ -91,6 +92,11 @@ ${OBJECTDIR}/SinglyLinkedListTest.o: SinglyLinkedListTest.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/SinglyLinkedListTest.o SinglyLinkedListTest.cpp
+
+${OBJECTDIR}/StackTest.o: StackTest.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/StackTest.o StackTest.cpp
 
 ${OBJECTDIR}/main.o: main.cpp
 	${MKDIR} -p ${OBJECTDIR}
