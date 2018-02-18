@@ -39,6 +39,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/BitArrayTest.o \
 	${OBJECTDIR}/DoublyLinkedListTest.o \
 	${OBJECTDIR}/ParallelArrayTest.o \
+	${OBJECTDIR}/QueueTest.o \
 	${OBJECTDIR}/SinglyLinkedListTest.o \
 	${OBJECTDIR}/StackTest.o \
 	${OBJECTDIR}/main.o
@@ -87,6 +88,11 @@ ${OBJECTDIR}/ParallelArrayTest.o: ParallelArrayTest.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ParallelArrayTest.o ParallelArrayTest.cpp
+
+${OBJECTDIR}/QueueTest.o: QueueTest.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/QueueTest.o QueueTest.cpp
 
 ${OBJECTDIR}/SinglyLinkedListTest.o: SinglyLinkedListTest.cpp
 	${MKDIR} -p ${OBJECTDIR}

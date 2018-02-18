@@ -9,6 +9,7 @@
       <itemPath>ds/doubly_linked_list.h</itemPath>
       <itemPath>ds/exceptions.h</itemPath>
       <itemPath>ds/parallel_array.h</itemPath>
+      <itemPath>ds/queue.h</itemPath>
       <itemPath>ds/singly_linked_list.h</itemPath>
       <itemPath>ds/stack.h</itemPath>
     </logicalFolder>
@@ -23,6 +24,7 @@
       <itemPath>BitArrayTest.cpp</itemPath>
       <itemPath>DoublyLinkedListTest.cpp</itemPath>
       <itemPath>ParallelArrayTest.cpp</itemPath>
+      <itemPath>QueueTest.cpp</itemPath>
       <itemPath>SinglyLinkedListTest.cpp</itemPath>
       <itemPath>StackTest.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
@@ -59,6 +61,8 @@
       </item>
       <item path="ParallelArrayTest.cpp" ex="false" tool="1" flavor2="0">
       </item>
+      <item path="QueueTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="SinglyLinkedListTest.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="StackTest.cpp" ex="false" tool="1" flavor2="0">
@@ -70,6 +74,8 @@
       <item path="ds/exceptions.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="ds/parallel_array.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ds/queue.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="ds/singly_linked_list.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -108,6 +114,8 @@
       </item>
       <item path="ParallelArrayTest.cpp" ex="false" tool="1" flavor2="0">
       </item>
+      <item path="QueueTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="SinglyLinkedListTest.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="StackTest.cpp" ex="false" tool="1" flavor2="0">
@@ -119,6 +127,8 @@
       <item path="ds/exceptions.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="ds/parallel_array.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ds/queue.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="ds/singly_linked_list.h" ex="false" tool="3" flavor2="0">
       </item>

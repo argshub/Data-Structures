@@ -56,6 +56,19 @@ public:
     StackIsEmpty(const string &message): Exceptions(message) {}
 };
 
+// Queue is Full class
+
+class QueueIsFull: public Exceptions {
+public:
+    QueueIsFull(const string &message, int capacity): Exceptions(message, capacity) {}
+};
+
+// Queue is Empty
+class QueueIsEmpty: public Exceptions {
+public:
+    QueueIsEmpty(const string &message): Exceptions(message) {}
+};
+
 // Exceptions Definition
 
 Exceptions::Exceptions(const string& message, int capacity) {
