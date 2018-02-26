@@ -6,6 +6,7 @@
                    projectFiles="true">
       <itemPath>DS/array.h</itemPath>
       <itemPath>ds/bit_array.h</itemPath>
+      <itemPath>ds/circular_linked_list.h</itemPath>
       <itemPath>ds/doubly_linked_list.h</itemPath>
       <itemPath>ds/exceptions.h</itemPath>
       <itemPath>ds/parallel_array.h</itemPath>
@@ -22,6 +23,7 @@
                    projectFiles="true">
       <itemPath>ArrayTest.cpp</itemPath>
       <itemPath>BitArrayTest.cpp</itemPath>
+      <itemPath>CircularLinkedListTest.cpp</itemPath>
       <itemPath>DoublyLinkedListTest.cpp</itemPath>
       <itemPath>ParallelArrayTest.cpp</itemPath>
       <itemPath>QueueTest.cpp</itemPath>
@@ -55,6 +57,8 @@
       </item>
       <item path="BitArrayTest.cpp" ex="false" tool="1" flavor2="0">
       </item>
+      <item path="CircularLinkedListTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="DS/array.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="DoublyLinkedListTest.cpp" ex="false" tool="1" flavor2="0">
@@ -68,6 +72,8 @@
       <item path="StackTest.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="ds/bit_array.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ds/circular_linked_list.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="ds/doubly_linked_list.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -108,6 +114,8 @@
       </item>
       <item path="BitArrayTest.cpp" ex="false" tool="1" flavor2="0">
       </item>
+      <item path="CircularLinkedListTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="DS/array.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="DoublyLinkedListTest.cpp" ex="false" tool="1" flavor2="0">
@@ -121,6 +129,8 @@
       <item path="StackTest.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="ds/bit_array.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ds/circular_linked_list.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="ds/doubly_linked_list.h" ex="false" tool="3" flavor2="0">
       </item>

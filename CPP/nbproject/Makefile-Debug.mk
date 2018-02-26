@@ -37,6 +37,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/ArrayTest.o \
 	${OBJECTDIR}/BitArrayTest.o \
+	${OBJECTDIR}/CircularLinkedListTest.o \
 	${OBJECTDIR}/DoublyLinkedListTest.o \
 	${OBJECTDIR}/ParallelArrayTest.o \
 	${OBJECTDIR}/QueueTest.o \
@@ -78,6 +79,11 @@ ${OBJECTDIR}/BitArrayTest.o: BitArrayTest.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/BitArrayTest.o BitArrayTest.cpp
+
+${OBJECTDIR}/CircularLinkedListTest.o: CircularLinkedListTest.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/CircularLinkedListTest.o CircularLinkedListTest.cpp
 
 ${OBJECTDIR}/DoublyLinkedListTest.o: DoublyLinkedListTest.cpp
 	${MKDIR} -p ${OBJECTDIR}
