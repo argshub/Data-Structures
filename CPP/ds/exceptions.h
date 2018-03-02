@@ -69,6 +69,13 @@ public:
     QueueIsEmpty(const string &message): Exceptions(message) {}
 };
 
+// Deque Is Empty
+
+class DequeIsEmpty: public Exceptions {
+public:
+    DequeIsEmpty(const string &message): Exceptions(message) {}
+};
+
 // Exceptions Definition
 
 Exceptions::Exceptions(const string& message, int capacity) {

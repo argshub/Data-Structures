@@ -38,6 +38,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/ArrayTest.o \
 	${OBJECTDIR}/BitArrayTest.o \
 	${OBJECTDIR}/CircularLinkedListTest.o \
+	${OBJECTDIR}/DequeTest.o \
 	${OBJECTDIR}/DoublyLinkedListTest.o \
 	${OBJECTDIR}/ParallelArrayTest.o \
 	${OBJECTDIR}/QueueTest.o \
@@ -84,6 +85,11 @@ ${OBJECTDIR}/CircularLinkedListTest.o: CircularLinkedListTest.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/CircularLinkedListTest.o CircularLinkedListTest.cpp
+
+${OBJECTDIR}/DequeTest.o: DequeTest.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/DequeTest.o DequeTest.cpp
 
 ${OBJECTDIR}/DoublyLinkedListTest.o: DoublyLinkedListTest.cpp
 	${MKDIR} -p ${OBJECTDIR}
