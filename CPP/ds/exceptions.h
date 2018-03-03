@@ -76,6 +76,13 @@ public:
     DequeIsEmpty(const string &message): Exceptions(message) {}
 };
 
+// Set Element Not found
+
+class SetElementNotExist: public Exceptions {
+public:
+    SetElementNotExist(const string &message): Exceptions(message) {}
+};
+
 // Exceptions Definition
 
 Exceptions::Exceptions(const string& message, int capacity) {
